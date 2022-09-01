@@ -1,0 +1,45 @@
+{
+	"name": "@nthity/utils",
+	"version": "0.1.0",
+	"description": "Nthity utility modules.",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"prepublish": "npx tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/agentg2007/utils.git"
+	},
+	"keywords": [
+		"general",
+		"utilities"
+	],
+	"author": "agentg2007",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/agentg2007/utils/issues"
+	},
+	"homepage": "https://github.com/agentg2007/utils#readme",
+	"devDependencies": {
+		"typescript": "^4.8.2"
+	},
+	"dependencies": {
+		"@nthity/guid": "^0.1.1",
+		"@nthity/version-utils": "^1.0.2"
+	},
+	"files": [
+		"LICENSE",
+		"README.md",
+		"index.js",
+		"index.d.ts",
+		"index.d.ts.map",
+		"guid.js",
+		"guid.d.ts",
+		"guid.d.ts.map",
+		"version.js",
+		"version.d.ts",
+		"version.d.ts.map"
+	]
+}

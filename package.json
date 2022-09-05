@@ -1,6 +1,6 @@
 {
 	"name": "@nthity/utils",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Nthity utility modules.",
 	"publishConfig": {
 		"access": "public"
@@ -27,7 +27,7 @@
 	},
 	"dependencies": {
 		"@nthity/guid": "^0.1.1",
-		"@nthity/version-utils": "^1.0.2"
+		"@nthity/version-utils": "^1.0.4"
 	},
 	"files": [
 		"LICENSE",
